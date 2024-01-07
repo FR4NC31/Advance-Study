@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704412800&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    height: 12px;
+    justify-content: space-between;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.logo {
+    width: 120px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+}
+
+.logo span {
+    color: #ffffff;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.home-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 250px;
+}
+
+.home-content h1{
+    font-size: 80px;
+    margin-left: 50px;
+}
+
+.home-content p {
+    width: 40%;
+    margin: 20px 0 0 50px;
+}
+
+.home-content button {
+    background-color: #000000;
+    width: 8%;
+    height: 40px;
+    margin: 20px 0 0 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home-content button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.home-content button i {
+    margin-left: 10px;
+} 
+
+.home-content button a:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+.home-content button:hover {
+    background: #ffffff;
+}
